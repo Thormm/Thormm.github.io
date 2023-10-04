@@ -1,10 +1,11 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300&family=Gabarito:wght@900&family=Inter:wght@300&family=Montserrat+Alternates:wght@500&family=PT+Sans+Narrow&display=swap');
 
 .banner{
-    width: Fill (1,440px)
-height: Fixed (75px)
-padding: 0px, 20px, 8px, 20px
+width: Fill (1,440px) ;
+height: Fixed (75px) ;
+padding: 0px, 20px, 8px, 20px ;
 border: 4px solid black;
 }
 
@@ -55,26 +56,9 @@ text-align: center;
 
 }
 
-.bgstyle{
-    border-radius: 30px;
-    height: 75vh;
-}
-
-.uppbgstyle{
-    padding:2%;
-}
 
 
-@media screen and (max-width: 991px) {
-    .bgstyle{
-        border-radius: 0px;
-        height: 100vh;
-    }
 
-    .uppbgstyle{
-        padding:0%;
-    }
-  }
 
 
 .heading3{
@@ -95,3 +79,21 @@ text-align: center;
     text-align: center; 
     text-align: center;
     }
+
+  .inside{
+    height: 100%;
+  width: 100%;
+    object-fit: contain;
+  }
+  
+  .sec4{
+    border: 1.5px solid black; border-radius: 10px;
+  }
+
+  .flyer{
+    position: absolute; right: 0;
+                left: 20%;
+                top: 28%;
+                bottom: 0;
+                margin: auto;
+  }
