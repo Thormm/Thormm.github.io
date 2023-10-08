@@ -1,6 +1,5 @@
 
- 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300&family=Gabarito:wght@900&family=Inter:wght@300&family=Montserrat+Alternates:wght@500&family=PT+Sans+Narrow&display=swap');
+
 
 .banner{
 width: Fill (1,440px) ;
@@ -10,7 +9,7 @@ border: 4px solid black;
 }
 
 .roomate{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins';
     font-size: 14px;
     font-weight: 600;
     line-height: 26px;
@@ -19,7 +18,7 @@ border: 4px solid black;
     }
 
 .about{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins';
 font-size: 14px;
 font-weight: 400;
 line-height: 26px;
@@ -37,9 +36,9 @@ left: 622.5px;
 }
 
 .cribb{
-font-family: 'Inter', sans-serif;
+font-family: 'Poppins';
 font-size: 25px;
-font-weight: 900;
+font-weight: bolder;
 line-height: 48px;
 letter-spacing: 0.03em;
 text-align: left;
@@ -47,8 +46,8 @@ color: black;
 }
 
 .profile{
-    font-family: 'Inter', sans-serif;
-font-size: 14px;
+    font-family: 'Poppins';
+font-size: 25px;
 font-weight: 500;
 line-height: 30px;
 letter-spacing: -0.03em;
@@ -58,11 +57,8 @@ text-align: center;
 
 
 
-
-
-
 .heading3{
-font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Montserrat';
 font-size: 36px;
 font-weight: 600;
 line-height: 44px;
@@ -71,11 +67,10 @@ text-align: center;
 }
 
 .connect{
-     font-family: 'Inter', sans-serif;
+  font-family: 'Poppins';
+    font-weight: 900;
     font-size: 70px;
-    font-weight: 800;
     line-height: 80px;
-    letter-spacing: 0.20000000298023224px;
     text-align: center; 
     text-align: center;
     }
@@ -97,3 +92,34 @@ text-align: center;
                 bottom: 0;
                 margin: auto;
   }
+
+  .otp-field {
+    flex-direction: row;
+    column-gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .otp-field input {
+    height: 45px;
+    width: 42px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1.125rem;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  .otp-field input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  }
+  .otp-field input::-webkit-inner-spin-button,
+  .otp-field input::-webkit-outer-spin-button {
+    display: none;
+  }
+  
+  .resend {
+    font-size: 12px;
+  }
+  
+  
